@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "ebGYK5NyNN0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DobriyKaban\\RiderProjects\\WebUi\\WebUi\\WebUi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\accessibility\\4.6.0-preview3-27504-2\\accessibility.4.6.0-preview3-27504-2.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\core.mono.webbrowser\\1.0.0-alpha7\\core.mono.webbrowser.1.0.0-alpha7.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\core.system.drawing.design\\1.0.0-alpha7\\core.system.drawing.design.1.0.0-alpha7.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\core.system.windows.forms\\1.0.0-alpha7\\core.system.windows.forms.1.0.0-alpha7.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\microsoft.web.webview2\\1.0.3650.58\\microsoft.web.webview2.1.0.3650.58.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.1\\microsoft.win32.systemevents.10.0.1.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\mono.posix.netstandard\\1.0.0\\mono.posix.netstandard.1.0.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\sixlabors.imagesharp\\3.1.12\\sixlabors.imagesharp.3.1.12.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.drawing.common\\10.0.1\\system.drawing.common.10.0.1.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.io.pipelines\\10.0.1\\system.io.pipelines.10.0.1.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.resources.extensions\\6.0.0\\system.resources.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.text.encodings.web\\10.0.1\\system.text.encodings.web.10.0.1.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\DobriyKaban\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SS14 Menu</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Futuristic Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+      :root {
+        --bg-dark: #0f1115;
+        --bg-panel: #16191f;
+        --accent: #00e5ff; /* NanoTrasen Cyan */
+        --accent-dim: #00acc1;
+        --accent-glow: rgba(0, 229, 255, 0.4);
+        --text-main: #ffffff;
+        --text-dim: #8b9bb4;
+        --danger: #ff4444;
+        --border: #2a303c;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rajdhani', sans-serif;
+        background-color: #050505;
+        background-image: 
+          radial-gradient(circle at 50% 50%, #1a1f2e 0%, #050505 100%);
+        color: var(--text-main);
+        height: 100vh;
+        overflow: hidden;
+        user-select: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Animated Background Grid */
+      .grid-bg {
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        background-image: 
+          linear-gradient(rgba(0, 229, 255, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 229, 255, 0.03) 1px, transparent 1px);
+        background-size: 40px 40px;
+        transform: perspective(500px) rotateX(60deg) translateY(-100px) translateZ(-200px);
+        animation: gridMove 20s linear infinite;
+        z-index: -1;
+        pointer-events: none;
+      }
+
+      @keyframes gridMove {
+        0% { transform: perspective(500px) rotateX(60deg) translateY(0) translateZ(-200px); }
+        100% { transform: perspective(500px) rotateX(60deg) translateY(40px) translateZ(-200px); }
+      }
+
+      /* Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(42, 48, 60, 0.5);
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--accent);
+      }
+
+      /* Utility animations */
+      /* Slower, smoother animation */
+      @keyframes slideFadeIn {
+        0% { 
+          opacity: 0; 
+          transform: translateY(15px) scale(0.98); 
+        }
+        100% { 
+          opacity: 1; 
+          transform: translateY(0) scale(1); 
+        }
+      }
+      
+      .animate-enter {
+        animation: slideFadeIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+        opacity: 0; /* Start hidden for animation */
+        backface-visibility: hidden;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div class="grid-bg"></div>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

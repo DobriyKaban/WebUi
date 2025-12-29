@@ -1,0 +1,252 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Core.System.Windows.Forms" Version="1.0.0-alpha7" />
+      <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3650.58" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
+      <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
+      <PackageReference Include="System.Text.Json" Version="10.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Resources\Web\index.html">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Resources\Web\vite.config.ts" />
+      <None Remove="Resources\Web\types.ts" />
+      <None Remove="Resources\Web\data.ts" />
+      <None Remove="Resources\Web\metadata.json" />
+      <None Remove="Resources\Web\package.json" />
+      <None Remove="Resources\Web\tsconfig.json" />
+      <None Remove="Resources\Web\index-BbiqscHQ.js" />
+      <None Remove="Resources\Web\package-lock.json" />
+      <None Remove="Resources\Web\components.tsx" />
+      <None Remove="Resources\Web\index.tsx" />
+      <None Remove="Resources\Web\index-hD8b0wwA.js" />
+      <None Update="Resources\Assembly\0Harmony.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\CerberusWareV3.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Content.Client.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Content.Shared.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Content.Shared.Database.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\DiscordRPC.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Hexa.NET.ImGui.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Hexa.NET.ImGui.Backends.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\HexaGen.Runtime.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\ImGui.NET.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Microsoft.Web.WebView2.Core.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Microsoft.Web.WebView2.WinForms.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Microsoft.Web.WebView2.Wpf.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Microsoft.Win32.SystemEvents.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\MinHook.NET.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\OpenTK.Audio.OpenAL.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\OpenTK.Mathematics.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\OpenToolkit.Core.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\OpenToolkit.Graphics.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\OpenToolkit.GraphicsLibraryFramework.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\OpenToolkit.Mathematics.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Robust.Client.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Robust.LoaderApi.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Robust.NetSerializer.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Robust.Shared.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\Robust.Shared.Maths.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\SpaceWizards.Lidgren.Network.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\SpaceWizards.NFluidsynth.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\SpaceWizards.Sdl.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\SpaceWizards.SharpFont.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\System.Drawing.Common.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\System.Windows.Forms.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\System.Windows.Forms.Primitives.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\SystemWindowsForms.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\TerraFX.Interop.Windows.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Resources\Assembly\WebView2Loader.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources\Assembly\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>Resources\Assembly\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="CerberusWareV3">
+        <HintPath>Resources\Assembly\CerberusWareV3.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Client">
+        <HintPath>Resources\Assembly\Content.Client.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Shared">
+        <HintPath>Resources\Assembly\Content.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="Content.Shared.Database">
+        <HintPath>Resources\Assembly\Content.Shared.Database.dll</HintPath>
+      </Reference>
+      <Reference Include="DiscordRPC">
+        <HintPath>Resources\Assembly\DiscordRPC.dll</HintPath>
+      </Reference>
+      <Reference Include="Hexa.NET.ImGui">
+        <HintPath>Resources\Assembly\Hexa.NET.ImGui.dll</HintPath>
+      </Reference>
+      <Reference Include="Hexa.NET.ImGui.Backends">
+        <HintPath>Resources\Assembly\Hexa.NET.ImGui.Backends.dll</HintPath>
+      </Reference>
+      <Reference Include="HexaGen.Runtime">
+        <HintPath>Resources\Assembly\HexaGen.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="ImGui.NET">
+        <HintPath>Resources\Assembly\ImGui.NET.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Web.WebView2.Core">
+        <HintPath>Resources\Assembly\Microsoft.Web.WebView2.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Web.WebView2.WinForms">
+        <HintPath>Resources\Assembly\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Web.WebView2.Wpf">
+        <HintPath>Resources\Assembly\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Win32.SystemEvents">
+        <HintPath>Resources\Assembly\Microsoft.Win32.SystemEvents.dll</HintPath>
+      </Reference>
+      <Reference Include="MinHook.NET">
+        <HintPath>Resources\Assembly\MinHook.NET.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenTK.Audio.OpenAL">
+        <HintPath>Resources\Assembly\OpenTK.Audio.OpenAL.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenTK.Mathematics">
+        <HintPath>Resources\Assembly\OpenTK.Mathematics.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.Core">
+        <HintPath>Resources\Assembly\OpenToolkit.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.Graphics">
+        <HintPath>Resources\Assembly\OpenToolkit.Graphics.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.GraphicsLibraryFramework">
+        <HintPath>Resources\Assembly\OpenToolkit.GraphicsLibraryFramework.dll</HintPath>
+      </Reference>
+      <Reference Include="OpenToolkit.Mathematics">
+        <HintPath>Resources\Assembly\OpenToolkit.Mathematics.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Client">
+        <HintPath>Resources\Assembly\Robust.Client.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.LoaderApi">
+        <HintPath>Resources\Assembly\Robust.LoaderApi.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.NetSerializer">
+        <HintPath>Resources\Assembly\Robust.NetSerializer.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Shared">
+        <HintPath>Resources\Assembly\Robust.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="Robust.Shared.Maths">
+        <HintPath>Resources\Assembly\Robust.Shared.Maths.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.Lidgren.Network">
+        <HintPath>Resources\Assembly\SpaceWizards.Lidgren.Network.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.NFluidsynth">
+        <HintPath>Resources\Assembly\SpaceWizards.NFluidsynth.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.Sdl">
+        <HintPath>Resources\Assembly\SpaceWizards.Sdl.dll</HintPath>
+      </Reference>
+      <Reference Include="SpaceWizards.SharpFont">
+        <HintPath>Resources\Assembly\SpaceWizards.SharpFont.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Drawing.Common">
+        <HintPath>Resources\Assembly\System.Drawing.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Windows.Forms">
+        <HintPath>Resources\Assembly\System.Windows.Forms.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Windows.Forms.Primitives">
+        <HintPath>Resources\Assembly\System.Windows.Forms.Primitives.dll</HintPath>
+      </Reference>
+      <Reference Include="TerraFX.Interop.Windows">
+        <HintPath>Resources\Assembly\TerraFX.Interop.Windows.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
